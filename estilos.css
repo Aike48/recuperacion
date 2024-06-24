@@ -1,0 +1,83 @@
+*:root {
+    --bg: #24282b;
+    --azul: #073855;
+    --grey: #35424a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 800px;
+}
+.wbanner {
+    width: 100%;
+    height: 100%;
+}
+.w100{
+    width: 100%;
+}
+
+h1 {
+    margin-top: -15%;
+    color: white;
+    margin-left: 18%;
+    font-size: 150px;
+}
+
+.midbanner {
+    background-color: var(--azul);
+    padding: 20px;
+}
+
+.midbanner p {
+    color: white;
+}
+
+.tama {
+    width: 600px;
+
+}
+
+.contents {
+    margin-right: 10px;
+    margin-left: 10px;
+
+    background-color: white;
+  -webkit-box-shadow: 4px -1px 28px 0px rgba(39, 33, 39, 0.82);
+  -moz-box-shadow: 4px -1px 28px 0px rgba(39, 33, 39, 0.82);
+  box-shadow: 4px -1px 28px 0px rgba(39, 33, 39, 0.82);
+  padding: 20px;
+ 
+}
+
+
+.bottomContent {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Estilos para smartphones más pequeños (352-480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .bottomContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(13, 145, 90);
+    }
+
+    .contents{
+        width: 100%;
+    }
+
+    h1{
+        color: rgb(81, 17, 141);
+        font-size: 50px;
+    }
+}
